@@ -1,0 +1,3669 @@
+[
+  {
+    "ts": "2023-02-17T08:35:21.901Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "aboutLeadership",
+          "type": "ContentType",
+          "createdAt": "2022-02-02T18:22:19.548Z",
+          "updatedAt": "2022-02-07T20:59:27.680Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 5,
+          "publishedAt": "2022-02-07T20:59:27.680Z",
+          "firstPublishedAt": "2022-02-02T18:22:19.844Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 3,
+          "version": 6,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "heading",
+        "name": "About Leadership",
+        "description": "",
+        "fields": [
+          {
+            "id": "kicker",
+            "name": "Kicker",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "heading",
+            "name": "Heading",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "subhead",
+            "name": "Subhead",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "content",
+            "name": "Content",
+            "type": "Array",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "aboutProfile"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/content_types/aboutLeadership",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 713
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"heading\",\"name\":\"About Leadership\",\"description\":\"\",\"fields\":[{\"id\":\"kicker\",\"name\":\"Kicker\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"heading\",\"name\":\"Heading\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"subhead\",\"name\":\"Subhead\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"content\",\"name\":\"Content\",\"type\":\"Array\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"aboutProfile\"]}],\"linkType\":\"Entry\"}}]}"
+        },
+        "requestId": "cbdb156a-d8d9-4f29-b50b-184aa22db693"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:35:22.412Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "homepageLinkGroup",
+          "type": "ContentType",
+          "createdAt": "2022-02-07T17:36:49.301Z",
+          "updatedAt": "2022-02-10T18:04:35.914Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 5,
+          "publishedAt": "2022-02-10T18:04:35.914Z",
+          "firstPublishedAt": "2022-02-07T17:36:49.840Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 3,
+          "version": 6,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "name",
+        "name": "Homepage Link Group",
+        "description": "A group of links with a title",
+        "fields": [
+          {
+            "id": "name",
+            "name": "Name",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "links",
+            "name": "Links",
+            "type": "Array",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "navItem"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/content_types/homepageLinkGroup",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 457
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"name\",\"name\":\"Homepage Link Group\",\"description\":\"A group of links with a title\",\"fields\":[{\"id\":\"name\",\"name\":\"Name\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"links\",\"name\":\"Links\",\"type\":\"Array\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"navItem\"]}],\"linkType\":\"Entry\"}}]}"
+        },
+        "requestId": "1e0d7ba9-9912-4b71-b810-8d48e5dd070b"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:35:22.413Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "navItem",
+          "type": "ContentType",
+          "createdAt": "2022-02-10T17:51:51.107Z",
+          "updatedAt": "2022-02-10T17:53:00.881Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 7,
+          "publishedAt": "2022-02-10T17:53:00.881Z",
+          "firstPublishedAt": "2022-02-10T17:51:51.386Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 8,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "text",
+        "name": "Nav Item",
+        "description": "",
+        "fields": [
+          {
+            "id": "text",
+            "name": "Text",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "href",
+            "name": "Href",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "icon",
+            "name": "Icon",
+            "type": "Link",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "linkType": "Asset"
+          },
+          {
+            "id": "description",
+            "name": "Description",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/content_types/navItem",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 614
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"text\",\"name\":\"Nav Item\",\"description\":\"\",\"fields\":[{\"id\":\"text\",\"name\":\"Text\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"href\",\"name\":\"Href\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"icon\",\"name\":\"Icon\",\"type\":\"Link\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"linkType\":\"Asset\"},{\"id\":\"description\",\"name\":\"Description\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false}]}"
+        },
+        "requestId": "1406aa61-f0b2-4566-a9a0-35ef0f2b242d"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:35:22.469Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "aboutLogoList",
+          "type": "ContentType",
+          "createdAt": "2022-02-02T18:41:16.053Z",
+          "updatedAt": "2022-02-16T20:52:06.109Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 7,
+          "publishedAt": "2022-02-16T20:52:06.109Z",
+          "firstPublishedAt": "2022-02-02T18:41:16.312Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 8,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "heading",
+        "name": "About Logo List",
+        "description": "",
+        "fields": [
+          {
+            "id": "heading",
+            "name": "Heading",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "link",
+            "name": "Link",
+            "type": "Link",
+            "localized": false,
+            "required": false,
+            "validations": [
+              {
+                "linkContentType": [
+                  "homepageLink"
+                ]
+              }
+            ],
+            "disabled": false,
+            "omitted": false,
+            "linkType": "Entry"
+          },
+          {
+            "id": "links",
+            "name": "Links",
+            "type": "Array",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "homepageLink"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          },
+          {
+            "id": "logos",
+            "name": "Logos",
+            "type": "Array",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "homepageLogo"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/content_types/aboutLogoList",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 848
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"heading\",\"name\":\"About Logo List\",\"description\":\"\",\"fields\":[{\"id\":\"heading\",\"name\":\"Heading\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"link\",\"name\":\"Link\",\"type\":\"Link\",\"localized\":false,\"required\":false,\"validations\":[{\"linkContentType\":[\"homepageLink\"]}],\"disabled\":false,\"omitted\":false,\"linkType\":\"Entry\"},{\"id\":\"links\",\"name\":\"Links\",\"type\":\"Array\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"homepageLink\"]}],\"linkType\":\"Entry\"}},{\"id\":\"logos\",\"name\":\"Logos\",\"type\":\"Array\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"homepageLogo\"]}],\"linkType\":\"Entry\"}}]}"
+        },
+        "requestId": "fd1d105c-df57-4392-b00c-5674559e8f37"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:35:23.419Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "navItemGroup",
+          "type": "ContentType",
+          "createdAt": "2022-02-15T20:39:29.863Z",
+          "updatedAt": "2022-02-15T20:40:28.036Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 5,
+          "publishedAt": "2022-02-15T20:40:28.036Z",
+          "firstPublishedAt": "2022-02-15T20:39:30.041Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 3,
+          "version": 6,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "name",
+        "name": "NavItemGroup",
+        "description": "A group of nav items with a title",
+        "fields": [
+          {
+            "id": "name",
+            "name": "Name",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "navItems",
+            "name": "NavItems",
+            "type": "Array",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false,
+            "items": {
+              "type": "Link",
+              "validations": [
+                {
+                  "linkContentType": [
+                    "navItem"
+                  ]
+                }
+              ],
+              "linkType": "Entry"
+            }
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/content_types/navItemGroup",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 461
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"name\",\"name\":\"NavItemGroup\",\"description\":\"A group of nav items with a title\",\"fields\":[{\"id\":\"name\",\"name\":\"Name\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"navItems\",\"name\":\"NavItems\",\"type\":\"Array\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false,\"items\":{\"type\":\"Link\",\"validations\":[{\"linkContentType\":[\"navItem\"]}],\"linkType\":\"Entry\"}}]}"
+        },
+        "requestId": "49afead1-8669-4a56-8d73-0eea148d2537"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:35:23.456Z",
+    "level": "error",
+    "error": {
+      "name": "AccessDenied",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "homepageBanner",
+          "type": "ContentType",
+          "createdAt": "2022-02-25T04:10:52.154Z",
+          "updatedAt": "2022-02-25T04:10:52.570Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 1,
+          "publishedAt": "2022-02-25T04:10:52.570Z",
+          "firstPublishedAt": "2022-02-25T04:10:52.570Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 1,
+          "version": 2,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "heading",
+        "name": "Homepage Banner",
+        "description": "",
+        "fields": [
+          {
+            "id": "heading",
+            "name": "Heading",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "text",
+            "name": "Text",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          }
+        ]
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "Forbidden",
+        "details": {
+          "reasons": [
+            "usageExceeded",
+            "You do not have permissions to create on ContentType, please contact your administrator for more information."
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/content_types/homepageBanner",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 343
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"heading\",\"name\":\"Homepage Banner\",\"description\":\"\",\"fields\":[{\"id\":\"heading\",\"name\":\"Heading\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"text\",\"name\":\"Text\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false}]}"
+        },
+        "requestId": "8e0c0dd9-5815-4f4e-84af-99caf22348d1"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:01.487Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "6ptOjFmr6ezqAnuOG6QZVg",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:54:03.834Z",
+            "updatedAt": "2022-02-10T17:54:20.354Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "publishedAt": "2022-02-10T17:54:20.354Z",
+            "firstPublishedAt": "2022-02-10T17:54:20.354Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 4,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Pricing"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "6ptOjFmr6ezqAnuOG6QZVg",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:54:03.834Z",
+            "updatedAt": "2022-02-10T17:54:20.354Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "publishedAt": "2022-02-10T17:54:20.354Z",
+            "firstPublishedAt": "2022-02-10T17:54:20.354Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 4,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Pricing"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/6ptOjFmr6ezqAnuOG6QZVg",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 84
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Pricing\"},\"href\":{\"en-US\":\"#!\"}}}"
+        },
+        "requestId": "fa942151-e8c9-4188-89b2-1335e8dd2774"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:01.489Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "6H574Qfx14ck7MTqiDMn2c",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:54:29.272Z",
+            "updatedAt": "2022-02-10T17:54:39.653Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 2,
+            "publishedAt": "2022-02-10T17:54:39.653Z",
+            "firstPublishedAt": "2022-02-10T17:54:39.653Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 3,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "About"
+            },
+            "href": {
+              "en-US": "/about"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "6H574Qfx14ck7MTqiDMn2c",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:54:29.272Z",
+            "updatedAt": "2022-02-10T17:54:39.653Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 2,
+            "publishedAt": "2022-02-10T17:54:39.653Z",
+            "firstPublishedAt": "2022-02-10T17:54:39.653Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 3,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "About"
+            },
+            "href": {
+              "en-US": "/about"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/6H574Qfx14ck7MTqiDMn2c",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 86
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"About\"},\"href\":{\"en-US\":\"/about\"}}}"
+        },
+        "requestId": "69bdfba0-6f92-4cfc-8e40-365fe034a4f6"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:01.505Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "3HRx4NBErpaUkprPQ8m7Sx",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:55:19.710Z",
+            "updatedAt": "2022-02-10T18:00:34.512Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2022-02-10T18:00:34.512Z",
+            "firstPublishedAt": "2022-02-10T18:00:34.512Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Super"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "2NeXSSCyiXaBh82qjHqZJe"
+                }
+              }
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "3HRx4NBErpaUkprPQ8m7Sx",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:55:19.710Z",
+            "updatedAt": "2022-02-10T18:00:34.512Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2022-02-10T18:00:34.512Z",
+            "firstPublishedAt": "2022-02-10T18:00:34.512Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Super"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "2NeXSSCyiXaBh82qjHqZJe"
+                }
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/3HRx4NBErpaUkprPQ8m7Sx",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 172
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Super\"},\"href\":{\"en-US\":\"#!\"},\"icon\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"2NeXSSCyiXaBh82qjHqZJe\"}}}}}"
+        },
+        "requestId": "02007fca-97c4-482f-995e-7c0fd4f0a21b"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:01.526Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "Z6dzqiQEsl9eJwRzWEsMU",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:54:43.474Z",
+            "updatedAt": "2022-02-25T19:05:06.233Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2022-02-25T19:05:06.233Z",
+            "firstPublishedAt": "2022-02-10T17:54:53.296Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 2,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Blog"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "Z6dzqiQEsl9eJwRzWEsMU",
+            "type": "Entry",
+            "createdAt": "2022-02-10T17:54:43.474Z",
+            "updatedAt": "2022-02-25T19:05:06.233Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2022-02-25T19:05:06.233Z",
+            "firstPublishedAt": "2022-02-10T17:54:53.296Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 2,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Blog"
+            },
+            "href": {
+              "en-US": "#!"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/Z6dzqiQEsl9eJwRzWEsMU",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 81
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Blog\"},\"href\":{\"en-US\":\"#!\"}}}"
+        },
+        "requestId": "3638b2e2-c155-45d7-8763-89fdce394a4b"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:02.696Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "5KJltiVBrr3rVOkWaBDk57",
+            "type": "Entry",
+            "createdAt": "2022-02-15T20:43:15.652Z",
+            "updatedAt": "2022-02-15T20:44:06.098Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 6,
+            "publishedAt": "2022-02-15T20:44:06.098Z",
+            "firstPublishedAt": "2022-02-15T20:44:06.098Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 7,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItemGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "navItems": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "5KJltiVBrr3rVOkWaBDk57",
+            "type": "Entry",
+            "createdAt": "2022-02-15T20:43:15.652Z",
+            "updatedAt": "2022-02-15T20:44:06.098Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 6,
+            "publishedAt": "2022-02-15T20:44:06.098Z",
+            "firstPublishedAt": "2022-02-15T20:44:06.098Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 7,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItemGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "navItems": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/5KJltiVBrr3rVOkWaBDk57",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItemGroup",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 305
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"name\":{\"en-US\":\"Products\"},\"navItems\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3HRx4NBErpaUkprPQ8m7Sx\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3dxvwGKNjISuIxiXNRPEoE\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"7ohDn28pjA1jyZUYxF2Zkt\"}}]}}}"
+        },
+        "requestId": "029c2e6b-1b24-4b63-9236-7758f3251eb6"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:02.697Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "6PoXk9PlsLqws4n89EHeWJ",
+            "type": "Entry",
+            "createdAt": "2022-02-03T21:52:08.914Z",
+            "updatedAt": "2022-02-16T20:52:29.983Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 23,
+            "publishedAt": "2022-02-16T20:52:29.983Z",
+            "firstPublishedAt": "2022-02-03T21:58:24.683Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 24,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "aboutLogoList"
+              }
+            }
+          },
+          "fields": {
+            "heading": {
+              "en-US": "100% of the Fortune 100 choose Acme"
+            },
+            "link": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "42YoKGyaq0GzvOioi3FZkW"
+                }
+              }
+            },
+            "links": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "42YoKGyaq0GzvOioi3FZkW"
+                  }
+                }
+              ]
+            },
+            "logos": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "68NYlq4L1cs2St0q3kFpys"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4ZhZBFS0SjFeTGnuofnDRf"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3n0bO8HlRXnULgVbpD2zDk"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4g6A13B8QWt1YTyOwRAmEl"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6pilhHHruk248PdlElIUWT"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1YTC5RzQatNRWFsXEBRHTa"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "14uFIZbc9D5yORdkSL7PRW"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4cyrLIsdFVR3FdHQvEz89"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6La3JdXvpD0foEsEbHJg0H"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "Bhz3yLWaZGQEZTTdr3heJ"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "44enVSuVcCmdJ30nVlQtI9"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "48iy0SO1EbD8mrMyVfQThe"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "30zptzQY17CYvaZY8OJXhH"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6wMUpYsIaz3CLQ28WrYwTj"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6pnekvlipyg7LvPCQPcfkS"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "6PoXk9PlsLqws4n89EHeWJ",
+            "type": "Entry",
+            "createdAt": "2022-02-03T21:52:08.914Z",
+            "updatedAt": "2022-02-16T20:52:29.983Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 23,
+            "publishedAt": "2022-02-16T20:52:29.983Z",
+            "firstPublishedAt": "2022-02-03T21:58:24.683Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 24,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "aboutLogoList"
+              }
+            }
+          },
+          "fields": {
+            "heading": {
+              "en-US": "100% of the Fortune 100 choose Acme"
+            },
+            "link": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "42YoKGyaq0GzvOioi3FZkW"
+                }
+              }
+            },
+            "links": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "42YoKGyaq0GzvOioi3FZkW"
+                  }
+                }
+              ]
+            },
+            "logos": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "68NYlq4L1cs2St0q3kFpys"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4ZhZBFS0SjFeTGnuofnDRf"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3n0bO8HlRXnULgVbpD2zDk"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4g6A13B8QWt1YTyOwRAmEl"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6pilhHHruk248PdlElIUWT"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "1YTC5RzQatNRWFsXEBRHTa"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "14uFIZbc9D5yORdkSL7PRW"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4cyrLIsdFVR3FdHQvEz89"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6La3JdXvpD0foEsEbHJg0H"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "Bhz3yLWaZGQEZTTdr3heJ"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "44enVSuVcCmdJ30nVlQtI9"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "48iy0SO1EbD8mrMyVfQThe"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "30zptzQY17CYvaZY8OJXhH"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6wMUpYsIaz3CLQ28WrYwTj"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6pnekvlipyg7LvPCQPcfkS"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/6PoXk9PlsLqws4n89EHeWJ",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "aboutLogoList",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 1389
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"heading\":{\"en-US\":\"100% of the Fortune 100 choose Acme\"},\"link\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"42YoKGyaq0GzvOioi3FZkW\"}}},\"links\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"42YoKGyaq0GzvOioi3FZkW\"}}]},\"logos\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"68NYlq4L1cs2St0q3kFpys\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"4ZhZBFS0SjFeTGnuofnDRf\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3n0bO8HlRXnULgVbpD2zDk\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"4g6A13B8QWt1YTyOwRAmEl\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"6pilhHHruk248PdlElIUWT\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"1YTC5RzQatNRWFsXEBRHTa\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"14uFIZbc9D5yORdkSL7PRW\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"4cyrLIsdFVR3FdHQvEz89\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"6La3JdXvpD0foEsEbHJg0H\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"Bhz3yLWaZGQEZTTdr3heJ\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"44enVSuVcCmdJ30nVlQtI9\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"48iy0SO1EbD8mrMyVfQThe\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"30zptzQY17CYvaZY8OJXhH\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"6wMUpYsIaz3CLQ28WrYwTj\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"6pnekvlipyg7LvPCQPcfkS\"}}]}}}"
+        },
+        "requestId": "93197470-8699-4884-972c-e001bbb7d9e3"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:02.702Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "7ohDn28pjA1jyZUYxF2Zkt",
+            "type": "Entry",
+            "createdAt": "2022-02-10T18:01:38.696Z",
+            "updatedAt": "2022-02-15T16:05:47.676Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "publishedAt": "2022-02-15T16:05:47.676Z",
+            "firstPublishedAt": "2022-02-10T18:02:23.992Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 2,
+            "version": 6,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Track"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "oItNIXulMbf4K1ERM31KO"
+                }
+              }
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "7ohDn28pjA1jyZUYxF2Zkt",
+            "type": "Entry",
+            "createdAt": "2022-02-10T18:01:38.696Z",
+            "updatedAt": "2022-02-15T16:05:47.676Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "publishedAt": "2022-02-15T16:05:47.676Z",
+            "firstPublishedAt": "2022-02-10T18:02:23.992Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 2,
+            "version": 6,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Track"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "oItNIXulMbf4K1ERM31KO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/7ohDn28pjA1jyZUYxF2Zkt",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 171
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Track\"},\"href\":{\"en-US\":\"#!\"},\"icon\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"oItNIXulMbf4K1ERM31KO\"}}}}}"
+        },
+        "requestId": "0ddf4d60-8942-4e19-bb79-570ff05f9d32"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:03.222Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "3dxvwGKNjISuIxiXNRPEoE",
+            "type": "Entry",
+            "createdAt": "2022-02-10T18:00:39.050Z",
+            "updatedAt": "2022-02-10T18:01:31.748Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2022-02-10T18:01:31.748Z",
+            "firstPublishedAt": "2022-02-10T18:01:31.748Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Market"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "dB20mJtrXcJTs59Kq7g1Z"
+                }
+              }
+            },
+            "description": {
+              "en-US": "Incremental crawl so much wow this explains why these are different boom"
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "3dxvwGKNjISuIxiXNRPEoE",
+            "type": "Entry",
+            "createdAt": "2022-02-10T18:00:39.050Z",
+            "updatedAt": "2022-02-10T18:01:31.748Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2022-02-10T18:01:31.748Z",
+            "firstPublishedAt": "2022-02-10T18:01:31.748Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "navItem"
+              }
+            }
+          },
+          "fields": {
+            "text": {
+              "en-US": "Market"
+            },
+            "href": {
+              "en-US": "#!"
+            },
+            "icon": {
+              "en-US": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Asset",
+                  "id": "dB20mJtrXcJTs59Kq7g1Z"
+                }
+              }
+            },
+            "description": {
+              "en-US": "Incremental crawl so much wow this explains why these are different boom"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/3dxvwGKNjISuIxiXNRPEoE",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "navItem",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 271
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"text\":{\"en-US\":\"Market\"},\"href\":{\"en-US\":\"#!\"},\"icon\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"dB20mJtrXcJTs59Kq7g1Z\"}}},\"description\":{\"en-US\":\"Incremental crawl so much wow this explains why these are different boom\"}}}"
+        },
+        "requestId": "cb932dfc-4cb6-4903-85f1-37c999c0bfa9"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:03.318Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "3oq0lV1XsqCCdhOqf0MRmn",
+            "type": "Entry",
+            "createdAt": "2022-02-07T17:39:00.297Z",
+            "updatedAt": "2022-02-10T18:04:18.016Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 13,
+            "publishedAt": "2022-02-10T18:04:18.016Z",
+            "firstPublishedAt": "2022-02-07T17:47:24.304Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 14,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageLinkGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "links": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "3oq0lV1XsqCCdhOqf0MRmn",
+            "type": "Entry",
+            "createdAt": "2022-02-07T17:39:00.297Z",
+            "updatedAt": "2022-02-10T18:04:18.016Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 13,
+            "publishedAt": "2022-02-10T18:04:18.016Z",
+            "firstPublishedAt": "2022-02-07T17:47:24.304Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 4,
+            "version": 14,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "homepageLinkGroup"
+              }
+            }
+          },
+          "fields": {
+            "name": {
+              "en-US": "Products"
+            },
+            "links": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3HRx4NBErpaUkprPQ8m7Sx"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3dxvwGKNjISuIxiXNRPEoE"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "7ohDn28pjA1jyZUYxF2Zkt"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/3oq0lV1XsqCCdhOqf0MRmn",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "homepageLinkGroup",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 302
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"name\":{\"en-US\":\"Products\"},\"links\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3HRx4NBErpaUkprPQ8m7Sx\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"3dxvwGKNjISuIxiXNRPEoE\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"7ohDn28pjA1jyZUYxF2Zkt\"}}]}}}"
+        },
+        "requestId": "11d7f8fc-458d-46a9-8c79-89df5d15135e"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:38:03.542Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "4MBfVux6IXwg2rYLvm0wD1",
+            "type": "Entry",
+            "createdAt": "2022-02-03T20:09:52.631Z",
+            "updatedAt": "2022-02-07T20:59:59.071Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 13,
+            "publishedAt": "2022-02-07T20:59:59.071Z",
+            "firstPublishedAt": "2022-02-03T20:16:16.385Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 2,
+            "version": 14,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "aboutLeadership"
+              }
+            }
+          },
+          "fields": {
+            "kicker": {
+              "en-US": "Why Acme is the best"
+            },
+            "heading": {
+              "en-US": "Our leadership"
+            },
+            "subhead": {
+              "en-US": "At the end of the day customer centric, so circle back translating our vision of having a market leading platform into the weeds let's schedule a standup during the sprint to review our KPIs."
+            },
+            "content": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4VvlWXF2AjKatIlltUVrQ3"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "21rWA2SOSNDgV2Yh2IKNex"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "68DnFr99HeN0Ez0gwsVmNt"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6qyBSPDdFWo8TK7uLdpSKV"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "2jmKyQvnnTSoF56dLtBgaL"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "5EMNPqC3aZ4v36goXmGOLV"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "transformed": {
+          "metadata": {
+            "tags": [
+            ]
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "p39nycxzit31"
+              }
+            },
+            "id": "4MBfVux6IXwg2rYLvm0wD1",
+            "type": "Entry",
+            "createdAt": "2022-02-03T20:09:52.631Z",
+            "updatedAt": "2022-02-07T20:59:59.071Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 13,
+            "publishedAt": "2022-02-07T20:59:59.071Z",
+            "firstPublishedAt": "2022-02-03T20:16:16.385Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "publishedCounter": 2,
+            "version": 14,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "4SDtqAl8Y6iEC5454bbsbU"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "aboutLeadership"
+              }
+            }
+          },
+          "fields": {
+            "kicker": {
+              "en-US": "Why Acme is the best"
+            },
+            "heading": {
+              "en-US": "Our leadership"
+            },
+            "subhead": {
+              "en-US": "At the end of the day customer centric, so circle back translating our vision of having a market leading platform into the weeds let's schedule a standup during the sprint to review our KPIs."
+            },
+            "content": {
+              "en-US": [
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "4VvlWXF2AjKatIlltUVrQ3"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "21rWA2SOSNDgV2Yh2IKNex"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "68DnFr99HeN0Ez0gwsVmNt"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "6qyBSPDdFWo8TK7uLdpSKV"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "2jmKyQvnnTSoF56dLtBgaL"
+                  }
+                },
+                {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "5EMNPqC3aZ4v36goXmGOLV"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/4MBfVux6IXwg2rYLvm0wD1",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Content-Type": "aboutLeadership",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 788
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"kicker\":{\"en-US\":\"Why Acme is the best\"},\"heading\":{\"en-US\":\"Our leadership\"},\"subhead\":{\"en-US\":\"At the end of the day customer centric, so circle back translating our vision of having a market leading platform into the weeds let's schedule a standup during the sprint to review our KPIs.\"},\"content\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"4VvlWXF2AjKatIlltUVrQ3\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"21rWA2SOSNDgV2Yh2IKNex\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"68DnFr99HeN0Ez0gwsVmNt\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"6qyBSPDdFWo8TK7uLdpSKV\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"2jmKyQvnnTSoF56dLtBgaL\"}},{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"5EMNPqC3aZ4v36goXmGOLV\"}}]}}}"
+        },
+        "requestId": "adc08cf8-2fe8-4020-bcb2-17c677be6e7f"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:40:40.781Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "0e5rbksub4rq"
+            }
+          },
+          "id": "2UARLNVAKRNspufH1G0NoS",
+          "type": "Entry",
+          "createdAt": "2023-02-17T08:38:03.638Z",
+          "updatedAt": "2023-02-17T08:38:03.638Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "aboutPage"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "About"
+          },
+          "description": {
+            "en-US": "Homepage Starter About Page"
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7nCV7i4NBQYcINf8sW3d25"
+              }
+            }
+          },
+          "content": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2iuL54yEyTRgsIernNi6FR"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4OTudLXmD9tDR3MwYEvnWT"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1n4Lbi6fppcwcLk7KoojT3"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4MBfVux6IXwg2rYLvm0wD1"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5M7IzLNkDdXrl7kELfHZlD"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6PoXk9PlsLqws4n89EHeWJ"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3KJCZ6SW2WQouT2QH9T26j"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4MBfVux6IXwg2rYLvm0wD1"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                3
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6PoXk9PlsLqws4n89EHeWJ"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                5
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/2UARLNVAKRNspufH1G0NoS/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "b7ee5003-2313-4bcd-a9e0-f2fd5e69fd5b"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:40:47.011Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "0e5rbksub4rq"
+            }
+          },
+          "id": "5rVbCUT6w6Q2595ISWVJXV",
+          "type": "Entry",
+          "createdAt": "2023-02-17T08:38:04.581Z",
+          "updatedAt": "2023-02-17T08:38:04.581Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "layoutHeader"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Header"
+          },
+          "cta": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "jlXcUdWMkXGQxIjkKnLSU"
+              }
+            }
+          },
+          "navItems": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5KJltiVBrr3rVOkWaBDk57"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6ptOjFmr6ezqAnuOG6QZVg"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6H574Qfx14ck7MTqiDMn2c"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Z6dzqiQEsl9eJwRzWEsMU"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5KJltiVBrr3rVOkWaBDk57"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                0
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6ptOjFmr6ezqAnuOG6QZVg"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                1
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6H574Qfx14ck7MTqiDMn2c"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                2
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "Z6dzqiQEsl9eJwRzWEsMU"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                3
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/5rVbCUT6w6Q2595ISWVJXV/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "c24d7936-97d1-4e5d-9512-40d134cdc842"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:41:31.046Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "0e5rbksub4rq"
+            }
+          },
+          "id": "2UARLNVAKRNspufH1G0NoS",
+          "type": "Entry",
+          "createdAt": "2023-02-17T08:38:03.638Z",
+          "updatedAt": "2023-02-17T08:38:03.638Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "aboutPage"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "About"
+          },
+          "description": {
+            "en-US": "Homepage Starter About Page"
+          },
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7nCV7i4NBQYcINf8sW3d25"
+              }
+            }
+          },
+          "content": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2iuL54yEyTRgsIernNi6FR"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4OTudLXmD9tDR3MwYEvnWT"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "1n4Lbi6fppcwcLk7KoojT3"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "4MBfVux6IXwg2rYLvm0wD1"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5M7IzLNkDdXrl7kELfHZlD"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6PoXk9PlsLqws4n89EHeWJ"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "3KJCZ6SW2WQouT2QH9T26j"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4MBfVux6IXwg2rYLvm0wD1"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                3
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6PoXk9PlsLqws4n89EHeWJ"
+              },
+              "path": [
+                "fields",
+                "content",
+                "en-US",
+                5
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/2UARLNVAKRNspufH1G0NoS/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "dca301e7-0589-431e-96b4-f601d9ae4bcd"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:41:32.172Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "0e5rbksub4rq"
+            }
+          },
+          "id": "5rVbCUT6w6Q2595ISWVJXV",
+          "type": "Entry",
+          "createdAt": "2023-02-17T08:38:04.581Z",
+          "updatedAt": "2023-02-17T08:38:04.581Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0q9jNdJAquKgt1f5j23n5h"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "layoutHeader"
+            }
+          }
+        },
+        "fields": {
+          "name": {
+            "en-US": "Header"
+          },
+          "cta": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "jlXcUdWMkXGQxIjkKnLSU"
+              }
+            }
+          },
+          "navItems": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "5KJltiVBrr3rVOkWaBDk57"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6ptOjFmr6ezqAnuOG6QZVg"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6H574Qfx14ck7MTqiDMn2c"
+                }
+              },
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "Z6dzqiQEsl9eJwRzWEsMU"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5KJltiVBrr3rVOkWaBDk57"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                0
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6ptOjFmr6ezqAnuOG6QZVg"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                1
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6H574Qfx14ck7MTqiDMn2c"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                2
+              ]
+            },
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "Z6dzqiQEsl9eJwRzWEsMU"
+              },
+              "path": [
+                "fields",
+                "navItems",
+                "en-US",
+                3
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/0e5rbksub4rq/environments/master/entries/5rVbCUT6w6Q2595ISWVJXV/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.31; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v19.5.0; os macOS/v19.5.0;",
+            "CF-Sequence": "3c473dcd-f899-4699-8034-7dd50379ce20",
+            "Authorization": "Bearer ...fApuQ",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "f529f454-8ec9-4f04-b662-2dc84ac8b010"
+      }
+    }
+  },
+  {
+    "ts": "2023-02-17T08:41:32.172Z",
+    "level": "error",
+    "error": "Could not publish the following entities: About (2UARLNVAKRNspufH1G0NoS), Header (5rVbCUT6w6Q2595ISWVJXV)"
+  }
+]

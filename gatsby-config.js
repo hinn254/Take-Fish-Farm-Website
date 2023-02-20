@@ -28,12 +28,12 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Gatsby Starter Contentful Homepage",
-        short_name: "Gatsby",
+        name: "Take Fish Farm Limited",
+        short_name: "Take Fish Farm",
         start_url: "/",
         // These can be imported once ESM support lands
         background_color: "#ffe491",
-        theme_color: "#004ca3",
+        theme_color: "rgb(0, 133, 57)",
         icon: "src/favicon.png",
       },
     },

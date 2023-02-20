@@ -59,7 +59,89 @@ export default function Header() {
     }
   `)
 
-  const { navItems, cta } = data.layout.header
+  let navItems = [
+    {
+      id: "1",
+      navItemType: "Group",
+      name: "Products",
+      navItems: [
+        {
+          id: "1",
+          href: "/products/1",
+          text: "Product 1",
+          description: "Product 1 description",
+          icon: {
+            alt: "Product 1 icon",
+            gatsbyImageData: {
+              images: {
+                fallback: {
+                  src: "/images/product-1.png",
+                  srcSet: "/images/product-1.png",
+                },
+              },
+              layout: "fixed",
+              width: 32,
+              height: 32,
+            },
+          },
+        },
+      ],
+    },
+    {
+      id: "2",
+      navItemType: "Group",
+      name: "Services",
+      navItems: [
+        {
+          id: "1",
+          href: "/services/1",
+          text: "Service 1",
+          description: "Service 1 description",
+          icon: {
+            alt: "Service 1 icon",
+            gatsbyImageData: {
+              images: {
+                fallback: {
+                  src: "/images/service-1.png",
+                  srcSet: "/images/service-1.png",
+                },
+              },
+              layout: "fixed",
+              width: 32,
+              height: 32,
+            },
+          },
+        },
+      ],
+    },
+    {
+      id: "3",
+      // not group
+      href: "/about",
+      text: "About",
+    },
+
+    {
+      id: "4",
+      // not group
+      href: "/blog",
+      text: "Blog",
+    },
+
+    {
+      id: "5",
+      // not group
+      href: "/contact",
+      text: "Contact",
+    },
+  ]
+  let cta = {
+    id: "1",
+    href: "/contact",
+    text: "Contact",
+  }
+
+  // const { cta } = data.layout.header
   const [isOpen, setOpen] = React.useState(false)
 
   React.useEffect(() => {
@@ -77,7 +159,7 @@ export default function Header() {
         <Flex variant="spaceBetween">
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <BrandLogo />
+            {/* <BrandLogo /> */}
           </NavLink>
           <nav>
             <FlexList gap={4}>
@@ -109,7 +191,7 @@ export default function Header() {
           >
             <NavLink to="/">
               <VisuallyHidden>Home</VisuallyHidden>
-              <BrandLogo />
+              {/* <BrandLogo /> */}
             </NavLink>
           </span>
           <Flex>

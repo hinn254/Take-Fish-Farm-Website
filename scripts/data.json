@@ -6299,10 +6299,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Gatsby Contentful Homepage Starter"
+          "en-US": "Tujenge Fisheries"
         },
         "description": {
-          "en-US": "A Gatsby Starter for building a homepage with Contentful"
+          "en-US": "We are helping Africa farmers become self-sustaining through fish farming."
         },
         "image": {
           "en-US": {
@@ -6434,10 +6434,10 @@
       },
       "fields": {
         "kicker": {
-          "en-US": "Gatsby + Contentful"
+          "en-US": "Tujenge Fisheries"
         },
         "heading": {
-          "en-US": "Gatsby Contentful Homepage Starter"
+          "en-US": "We are helping Africa farmers become self-sustaining through fish farming."
         },
         "image": {
           "en-US": {
@@ -6449,7 +6449,7 @@
           }
         },
         "text": {
-          "en-US": "Clone, deploy, edit, and customize this starter to build your own homepage"
+          "en-US": "Fish farming with inspiration from the ocean."
         },
         "links": {
           "en-US": [
